@@ -15,5 +15,5 @@
 <p>I'm Mehrshad Gholami a freelancer of some sort.(I'm trying to become one actually)</p>
 <p>I've learned front-end skills but I fill like lacking in some parts.So I'm trying to improve my skills and find projects and start my work confidently</p>
 <p>Hope you enjoyed this article</p>
-<p>Please follow me on github and if you were interested see my other repositories to see my other work samples</p>
-<p>And if you give me a star it would make me supper happy😍</p>
+<p>This project is not responsive so if you enter with a mobile phone you'll see it has problems but please accept this for now, I will improve it later</p>
+<p>Please follow me on github and if you were interested see my other repositories to see my other work samples😍</p>
