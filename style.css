@@ -1,0 +1,127 @@
+body{
+    margin: 30px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.big{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.news-page{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    display: grid;
+    justify-items: center;
+    width: 80%;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-areas: "navbar navbar navbar"
+    "story-1 story-2 story-3"
+    "story-4 story-5 story-5";
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 80%;
+    grid-area: navbar;
+}
+li:hover{
+    text-decoration: underline;
+    color: rgb(169, 15, 193);
+}
+.story{
+    border-top: 2px solid black;
+    padding: 10px;
+    /* display: grid; */
+    /* justify-content: center; */
+
+}
+.story-1{
+    grid-area: story-1;
+}
+.story-2{
+    grid-area: story-2;
+    border-left: 2px solid black;
+}
+.story-3{
+    grid-area: story-3;
+    border-left: 2px solid black;
+}
+.story-4{
+    grid-area: story-4;
+}
+.story-5{
+    grid-area: story-5;
+    border-left: 2px solid black;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    max-height: 200px;
+}
+h3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for grid box */
+/* .my-page-header {
+    grid-area: nav-header;
+    background-color: red;
+    padding: 10px;
+  }
+
+  .my-page-body {
+    grid-area: main-body;
+    background-color: blue;
+    padding: 10px;
+  }
+
+  .my-page-sidebar {
+    grid-area: nav-side;
+    background-color: green;
+    padding: 10px;
+  }
+
+  .my-page-footer {
+    grid-area: footer;
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .my-page {
+    display: grid;
+    grid-template-areas:
+      "nav-header  nav-header  nav-header  nav-side"
+      "main-body   main-body   .           nav-side"
+      "footer      footer      footer      footer";
+  } */
